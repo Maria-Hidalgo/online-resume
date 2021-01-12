@@ -1,0 +1,103 @@
+/* ---- LayOut ----- */
+.main-container {
+    display: flex;
+    width: 1480px;
+}
+
+/* ---- General ----- */
+h1, h2 {
+    text-transform: uppercase;
+}
+
+meter::-webkit-meter-optimum-value {
+    background:rgb(248, 34, 230);
+  }
+
+  h5 {
+      font-weight: normal;
+  }
+
+/* ---- Aside ----- */
+aside {
+    background-color: #8c919b ;
+    width: 30%;
+    margin-right: 5%;
+}
+
+aside * {
+    color:white;
+}
+
+aside h2 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    
+}
+aside section h2:first-child{
+    border-bottom: 2px solid white;
+}
+#profile-pic img{
+    border-radius: 50%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-size: medium;
+}
+
+/* ---- Main Section ----- */
+main section > h2 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+}
+
+.tec {
+    background-color: rgb(207, 116, 195);
+    box-shadow: 5px 5px 10 px 10px #647087 inset;
+    padding: 15% 0;
+    text-align: center;
+}
+
+.tec h2 {
+    color:white;
+    border-top: 2px solid white;
+    letter-spacing: 10%;
+}
+
+.tec h1 {
+    letter-spacing: 15px;
+}
+
+.about-me h2 {
+    background-color: white;
+}
+
+.about-me p {
+    line-height: 2em;
+    background-color: #e2bde6;
+    padding: 5px;
+}
+
+article h3, 
+article h4 {
+    font-weight: bold;
+}
+
+article ul {
+    list-style-type: square;
+}
+
+.test-1 {
+    line-height: 2em;
+    background-color: #e2bde6;
+    padding: 5px;
+}
+
+.test-1 h2 {
+    background-color: white;
+}
+
